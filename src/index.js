@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import PesquisarCEP from './view/tela_pesquisa_cep';
 import * as serviceWorker from './serviceWorker';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
   <React.StrictMode>
