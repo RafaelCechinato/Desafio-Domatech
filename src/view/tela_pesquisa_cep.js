@@ -64,7 +64,7 @@ class PesquisaCep extends React.Component {
                   <h2>Encontrar endereço</h2>
                   <Input type="text" value={this.state.cep} onChange={this.atribuirCep} placeholder="Digite seu CEP aqui:" />
                   <br></br>
-                  <Button color="primary" onClick={fetch}>Buscar</Button>
+                  <Button color="primary"  onClick={fetch}>Buscar</Button>
                   <h2>Resultado</h2>
                 </div>
               </div>
